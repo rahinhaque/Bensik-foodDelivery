@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Besnik.</title>
+    <!-- tailwindcss+DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GoogleFonts Outfit Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      style="color: aliceblue"
+      rel="shortcut icon"
+      href="bowl-food-solid.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div
+          class="navbar max-w-7xl mx-auto my-4 px-4 rounded-2xl bg-gradient-to-r from-rose-50 to-orange-50 shadow-sm"
+        >
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="-1"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>About</a></li>
+                <li><a>Service</a></li>
+                <li><a>Menu</a></li>
+                <li><a>Chef</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-2xl font-extrabold italic"
+              >Besnik<span class="text-rose-400">.</span></a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-gray-600 gap-4">
+              <li><a>About</a></li>
+
+              <li><a>Service</a></li>
+              <li><a>Menu</a></li>
+              <li><a>Chef</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-2">
+            <a
+              class="btn btn-md rounded-xl bg-white text-gray-700 border border-base-300 shadow-sm hover:bg-white hover:border-base-300"
+              >Login</a
+            >
+            <a
+              class="btn btn-md rounded-xl text-white border-0 bg-gradient-to-r from-rose-300 to-orange-300 hover:from-rose-400 hover:to-orange-400"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <section
+        class="relative max-w-7xl mx-auto my-6 px-4 overflow-hidden rounded-2xl bg-gradient-to-r from-rose-50 to-orange-50"
+      >
+        <div
+          class="absolute inset-y-0 right-0 w-1/2 opacity-30 bg-[repeating-linear-gradient(135deg,#f7cfd6_0_10px,#fde5e8_10px_20px)]"
+        ></div>
+        <div
+          class="absolute -right-10 top-10 w-96 h-96 bg-rose-100 rounded-full"
+        ></div>
+        <div
+          class="absolute right-24 top-28 w-72 h-72 bg-rose-200/60 rounded-full"
+        ></div>
+        <div
+          class="relative grid grid-cols-1 lg:grid-cols-2 gap-8 items-center py-10"
+        >
+          <div class="px-2">
+            <div class="badge gap-2 p-4 rounded-lg bg-rose-200/60 text-gray-700">
+              Faster Food Delivery Service
+              <span class="text-lg">🍜</span>
+            </div>
+            <h1
+              class="mt-4 text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-extrabold text-gray-900"
+            >
+              The food of your choice
+            </h1>
+            <p class="mt-4 max-w-xl text-base md:text-lg text-gray-600">
+              Discover local, on-demand delivery or Pickup from nearby
+              restaurants.
+            </p>
+            <div class="mt-7 flex items-center gap-4">
+              <a
+                class="btn btn-lg rounded-xl text-white border-0 bg-gradient-to-r from-rose-300 to-orange-300 hover:from-rose-400 hover:to-orange-400"
+              >
+                Explore Now
+              </a>
+              <button
+                class="btn btn-circle btn-outline border-2 border-rose-200 text-rose-400 hover:bg-rose-50"
+              >
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <span class="text-gray-700 font-medium">How It Works</span>
+            </div>
+          </div>
+          <div class="relative h-full">
+            <img
+              src="john-fornander-jJIb2e7Jkcs-unsplash.jpg"
+              alt="Chef"
+              class="relative z-10 mx-auto max-h-[520px] object-contain drop-shadow-2xl rounded-lg"
+            />
+            <div class="absolute right-8 top-8 z-20">
+              <div
+                class="badge badge-lg bg-white text-emerald-400 shadow-md border border-rose-100"
+              >
+                <i class="fa-solid fa-bowl-food mr-2"></i> Fresh
+              </div>
+            </div>
+            <div
+              class="absolute left-6 bottom-8 z-20 bg-white border border-base-200 rounded-2xl shadow-md px-4 py-3 flex items-center gap-3"
+            >
+              <div class="avatar placeholder">
+                <div class="bg-amber-200 text-amber-800 w-10 rounded-full">
+                  <span class="text-lg">🍳</span>
+                </div>
+              </div>
+              <div>
+                <div class="text-sm font-semibold">4.8</div>
+                <div class="text-xs text-gray-500">Ratings</div>
+                <div class="rating rating-xs text-amber-400">
+                  <input
+                    type="radio"
+                    name="rating-1"
+                    class="mask mask-star-2"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-1"
+                    class="mask mask-star-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-1"
+                    class="mask mask-star-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-1"
+                    class="mask mask-star-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-1"
+                    class="mask mask-star-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </header>
+  </body>
+</html>
